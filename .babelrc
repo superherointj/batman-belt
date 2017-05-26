@@ -1,0 +1,21 @@
+{
+  "presets": [
+    ["latest", { "es2015": { "modules": false } }]
+  ],
+  "plugins": [
+    ["transform-object-rest-spread", { "useBuiltIns": true }], 
+    "transform-es2015-destructuring",
+    "transform-flow-strip-types",
+    "external-helpers"
+  ],
+  "env": {
+    "production": {
+      "presets": [
+          "babili"
+        ]
+    },
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}
