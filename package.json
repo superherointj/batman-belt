@@ -5,10 +5,6 @@
     "type": "https",
     "url": "https://github.com/superherointj/batman-belt"
   },
-  "release": {
-    "preset": "angular",
-    "debug": false
-  },
   "description": "Batman Utility Belt. Manipulating everything (Objects, Bitmasks) with easiness.",
   "main": "dist/bundle.prod.js",
   "module": "src/index.js",
