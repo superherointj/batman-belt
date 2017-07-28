@@ -11,7 +11,7 @@
   "scripts": {
     "test": "flow check && jest"
   },
-  "author": "Sergio Marcelo Gomes",
+  "author": "superherointj",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "latest",
